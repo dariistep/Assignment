@@ -3,8 +3,8 @@
 body {
     font-family: 'Raleway', sans-serif;
     line-height: 1.6;
-    background-color: #EAEAEA; /* Light gray background */
-    color: #2F2F2F; /* Softer black for text */
+    background-color: #EAEAEA;
+    color: #2F2F2F;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -15,7 +15,7 @@ body {
 h1, h2, h3 {
     font-family: 'Playfair Display', serif;
     margin-bottom: 1rem;
-    color: #2F2F2F; /* Softer black instead of gold */
+    color: #2F2F2F; 
 }
 
 h1 { font-size: 3rem; }
@@ -30,7 +30,7 @@ main {
 }
 
 header {
-    background-color: #2F2F2F; /* Softer black header */
+    background-color: #2F2F2F;
     padding: 0.5rem;
 }
 
@@ -51,12 +51,12 @@ header {
 .logo img {
     width: 50px;
     height: 50px;
-    filter: brightness(0) invert(1); /* Pure white instead of gold */
+    filter: brightness(0) invert(1);
 }
 
 .header-h1 {
     font-family: 'Playfair Display', serif;
-    border-left: solid 1px #FFFFFF; /* White instead of gold */
+    border-left: solid 1px #FFFFFF;
     padding-left: 10px;
     margin-top: 15px;
     font-size: 25px;
@@ -66,7 +66,7 @@ header {
 header nav a {
     border-left-style: solid;
     border-width: 1px;
-    border-color: #FFFFFF; /* White instead of gold */
+    border-color: #FFFFFF;
 }
 
 nav a {
@@ -78,7 +78,7 @@ nav a {
 }
 
 header nav a:hover {
-    background-color: rgba(255, 255, 255, 0.1); /* White hover instead of gold */
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 .profile-section {
@@ -93,14 +93,14 @@ header nav a:hover {
     border-radius: 50%;
     object-fit: cover;
     padding: 7px;
-    background-color: #2F2F2F; /* Softer black */
+    background-color: #2F2F2F;
     margin-top: 25px;
 }
 
 .quote {
     margin: 25px 0 0 50px;
     padding: 0;
-    border-bottom: 5px solid #2F2F2F; /* Softer black instead of gold */
+    border-bottom: 5px solid #2F2F2F;
 }
 
 .languages-container {
@@ -119,8 +119,7 @@ header nav a:hover {
 }
 
 .language-card ul {
-    list-style-type: none;
-    padding: 0;
+    list-style-type: none    padding: 0;
 }
 
 .language-card li {
@@ -130,7 +129,7 @@ header nav a:hover {
 
 .language-card li::before {
     content: "•";
-    color: #2F2F2F; /* Softer black instead of gold */
+    color: #2F2F2F;
     display: inline-block;
     margin-right: 0.5rem;
 }
@@ -146,7 +145,7 @@ table {
 }
 
 th {
-    background-color: #2F2F2F; /* Softer black */
+    background-color: #2F2F2F;
     color: #FFFFFF;
     padding: 1.5rem;
     text-align: left;
@@ -156,35 +155,9 @@ th {
 td {
     padding: 1.5rem;
     font-size: 1.1rem;
-    border-bottom: 1px solid rgba(47, 47, 47, 0.1); /* Adjusted for softer black */
+    border-bottom: 1px solid rgba(47, 47, 47, 0.1);
 }
 
-.contact-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 2rem;
-    margin: 2rem 0;
-}
-
-.contact-card {
-    background-color: #FFFFFF;
-    padding: 1.5rem;
-    border-radius: 2px;
-    text-align: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.contact-grid-a {
-    color: #2F2F2F;
-    text-decoration: none;
-    padding: 10px;
-    border-radius: 2px;
-    border-bottom: 1px solid #2F2F2F; /* Softer black instead of gold */
-}
-
-.contact-grid-a:hover {
-    background-color: rgba(47, 47, 47, 0.1); /* Softer black hover instead of gold */
-}
 
 .sports-images {
     display: flex;
@@ -197,12 +170,12 @@ td {
     width: 400px;
     height: auto;
     border-radius: 2px;
-    background-color: #2F2F2F; /* Softer black */
+    background-color: #2F2F2F;
     padding: 10px;
 }
 
 footer {
-    background-color: #2F2F2F; /* Softer black */
+    background-color: #2F2F2F;
     padding: 1rem;
     margin-top: auto;
     color: #FFFFFF;
@@ -238,7 +211,7 @@ footer {
 
 .footer-contact a:hover,
 .footer-socials a:hover {
-    color: rgba(255, 255, 255, 0.7); /* White hover instead of gold */
+    color: rgba(255, 255, 255, 0.7);
 }
 
 address {
