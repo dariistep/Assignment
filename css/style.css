@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&family=Playfair+Display:wght@700&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.6;
+    background-color: #4A148C;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 1rem;
+    color: #BB86FC;
+}
+
+h1 { font-size: 3rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.75rem; }
+
+main {
+    flex: 1;
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 0.5rem;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    filter: invert(1);
+}
+
+.header-h1 {
+    font-family: 'Playfair Display', serif;
+    border-left: solid 1px white;
+    padding-left: 10px;
+    margin-top: 15px;
+    font-size: 25px;
+}
+
+header nav a{
+    border-left-style: solid;
+    border-width: 1px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0px;
+    transition: background-color 0.3s;
+}
+
+header nav a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.profile-section {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.profile-image {
+    width: 325px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 7px;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin-top: 25px;
+}
+
+.quote {
+    margin: 25px 0 0 50px;
+    padding: 0;
+    border-bottom: 5px solid rgba(0, 0, 0, 0.2);
+}
+
+.languages-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.language-card {
+    flex: 1;
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 2rem;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.language-card ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.language-card li {
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+}
+
+.language-card li::before {
+    content: "•";
+    color: white;
+    display: inline-block;
+    margin-right: 0.5rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 2rem 0;
+}
+
+th {
+    background-color: rgba(157, 78, 221, 0.2);
+    padding: 1.5rem;
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+td {
+    padding: 1.5rem;
+    font-size: 1.1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.contact-card {
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 1.5rem;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.contact-grid-a {
+    color: white;
+    text-decoration: underline;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.contact-grid-a:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.sports-images {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.sports-img {
+    width: 400px;
+    height: auto;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 10px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    margin-top: auto;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+.footer-right {
+    text-align: right;
+}
+
+.footer-contact {
+    margin-bottom: 0.5rem;
+}
+
+.footer-contact a,
+.footer-socials a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-socials a {
+    margin-left: 1rem;
+}
+
+.footer-contact a:hover,
+.footer-socials a:hover {
+    color: #BB86FC;
+}
+
+address {
+    font-style: normal;
+    line-height: 1.6;
+}
