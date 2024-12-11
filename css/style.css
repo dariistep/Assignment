@@ -3,7 +3,6 @@
 body {
     font-family: 'Raleway', sans-serif;
     line-height: 1.6;
-    background-color: #EAEAEA;
     color: #2F2F2F;
     display: flex;
     flex-direction: column;
@@ -15,7 +14,7 @@ body {
 h1, h2, h3 {
     font-family: 'Playfair Display', serif;
     margin-bottom: 1rem;
-    color: #2F2F2F; 
+    color: #2F2F2F;
 }
 
 h1 { font-size: 3rem; }
@@ -107,7 +106,52 @@ header nav a:hover {
     display: flex;
     justify-content: space-between;
     gap: 2rem;
+    margin-top: 2rem;
 }
+
+.contact-card {
+    background-color: #FFFFFF;
+    padding: 1.5rem;
+    border-radius: 2px;
+    text-align: left;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    text-align: center;
+    height: auto;
+}
+
+.contact-card h3 {
+    
+    margin-top: 25px;
+    margin-bottom: 1rem;
+}
+
+.contact-card ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-card li {
+    font-size: 0.9rem;
+    margin: 0.5rem 0;
+    color: #2F2F2F;
+}
+
+.contact-card a {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    padding: 15px;
+    color: #2F2F2F;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.contact-card a:hover {
+    background-color: rgba(0,0,0, 0.1);
+    color: rgba(47, 47, 47, 0.7);
+}
+
 
 .language-card {
     flex: 1;
@@ -119,7 +163,8 @@ header nav a:hover {
 }
 
 .language-card ul {
-    list-style-type: none    padding: 0;
+    list-style-type: none;
+    padding: 0;
 }
 
 .language-card li {
@@ -158,6 +203,24 @@ td {
     border-bottom: 1px solid rgba(47, 47, 47, 0.1);
 }
 
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.contact-grid-a {
+    color: #2F2F2F;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 2px;
+    border-bottom: 1px solid #2F2F2F;
+}
+
+.contact-grid-a:hover {
+    background-color: rgba(47, 47, 47, 0.1);
+}
 
 .sports-images {
     display: flex;

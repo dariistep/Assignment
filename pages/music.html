@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darii Stepovyi - Personal Website</title>
+    <link rel="stylesheet" href="../css/films.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.9.2/dist/semantic.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="../images/logo.png" alt="D Logo">
+                <h1 class="header-h1">Darii Stepovyi</h1>
+            </div>
+            <nav>
+                <a href="../index.html">Home</a>
+                <a href="hobbies.html">Hobbies</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+                <a href="films.html">Films</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="ui grid">
+            <div class="sixteen wide column">
+                <h1>My Favourite Music</h1>
+            </div>
+            
+            <!-- Two images per row -->
+            <div class="eight wide column">
+                <div class="vertical-menu-container">
+                    <div class="movie-item">
+                        <img class="movie-poster" src="../images/marias.jpg" alt="The Marias">
+                        <p class="movie-caption">No One Noticed - The Marias</p>
+                        <p>Rating: 10/10</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="eight wide column">
+                <div class="vertical-menu-container">
+                    <div class="movie-item">
+                        <img class="movie-poster" src="../images/billie.jpg" alt="Billie Eilish">
+                        <p class="movie-caption">Overheated - Billie Eilish</p>
+                        <p>Rating: 8/10</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="eight wide column">
+                <div class="vertical-menu-container">
+                    <div class="movie-item">
+                        <img class="movie-poster" src="../images/marias2.jpg" alt="The Marias">
+                        <p class="movie-caption">Birds of a Feather</p>
+                        <p>Rating: 9/10</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="eight wide column">
+                <div class="vertical-menu-container">
+                    <div class="movie-item">
+                        <img class="movie-poster" src="../images/billie2.jpg" alt="Billie Eilish">
+                        <p class="movie-caption">Like a Tattoo - Sade</p>
+                        <p>Rating: 10/10</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sixteen wide column">
+                <h2>Music Reviews</h2>
+                
+                <div class="ui segments">
+                    <div class="ui segment">
+                        <h3>No One Noticed - The Marias</h3>
+                        <div class="ui divider"></div>
+                        <p>A dreamy and atmospheric track with great ethereal vocals and the band's signature psychedelic sound.</p>
+                    </div>
+                    
+                    <div class="ui segment">
+                        <h3>Overheated - Billie Eilish</h3>
+                        <div class="ui divider"></div>
+                        <p>Nice modern sounding song by Billie Eilish.</p>
+                    </div>
+                    <div class="ui segment">
+                        <h3>Birds of a Feather - Billie Eilish</h3>
+                        <div class="ui divider"></div>
+                        <p>A song that beautifully reflects the intricate emotions tied to deep connections.</p>
+                    </div>
+                                    <div class="ui segment">
+                        <h3>Like a Tattoo - Sade</h3>
+                        <div class="ui divider"></div>
+                        <p>An intimate and poetic reflection on love, pain, and resilience. </p>
+                    </div>
+                </div>
+
+                <h2>Add Review</h2>
+                <form class="ui form">
+                    <div class="required field">
+                        <label>Song Title</label>
+                        <input type="text" required name="title" placeholder="Enter song title">
+                    </div>
+                    <div class="required field">
+                        <label>Artist</label>
+                        <input type="text" required name="artist" placeholder="Enter artist name">
+                    </div>
+                    <div class="required field">
+                        <label>Rating</label>
+                        <select class="ui dropdown" name="rating" required>
+                            <option value="">Select Rating</option>
+                            <option value="1">1/10</option>
+                            <option value="2">2/10</option>
+                            <option value="3">3/10</option>
+                            <option value="4">4/10</option>
+                            <option value="5">5/10</option>
+                            <option value="6">6/10</option>
+                            <option value="7">7/10</option>
+                            <option value="8">8/10</option>
+                            <option value="9">9/10</option>
+                            <option value="10">10/10</option>
+                        </select>
+                    </div>
+                    <div class="required field">
+                        <label>Review</label>
+                        <textarea required name="review" placeholder="Write your review"></textarea>
+                    </div>
+                    <button class="ui button" type="submit">Submit Review</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-copyright">
+                <p>&copy; 2024 Darii Stepovyi</p>
+            </div>
+            <div class="footer-right">
+                <div class="footer-contact">
+                    <p>Contact:</p>
+                    <a href="mailto:stepoviydariy@gmail.com">stepoviydariy@gmail.com</a>
+                </div>
+                <div class="footer-socials">
+                    <a href="https://github.com/dariistep" target="_blank">GitHub</a>
+                    <a href="https://www.linkedin.com/in/darii-stepovyi-826585270/" target="_blank">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

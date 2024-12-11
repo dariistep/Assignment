@@ -1,0 +1,80 @@
+/* Ensure header styles match */
+header nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0px;
+    transition: background-color 0.3s;
+    border-left-style: solid;
+    border-width: 1px;
+    border-color: #FFFFFF;
+}
+
+header nav a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+/* Keep original font sizes */
+h1 { font-size: 3rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.75rem; }
+
+/* Movie poster styles */
+.movie-poster {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    background-color: #2F2F2F;
+    padding: 7px;
+}
+
+.movie-caption {
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1rem;
+}
+
+.vertical-menu-container {
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+}
+
+.movie-item {
+    margin-bottom: 2rem;
+}
+
+/* Override any Fomantic UI styles that might affect our layout */
+.ui.table {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1rem;
+}
+
+.ui.segment {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Ensure consistent text sizing */
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+/* Modified Fomantic UI classes */
+.ui.menu {
+    border-radius: 45%;
+    margin: 0;
+    background-color: #2F2F2F;
+}
+
+.ui.menu .item {
+    color: #FFFFFF;
+    border-left: 1px solid #FFFFFF;
+}
+
+.ui.form .field label {
+    font-family: 'Playfair Display', serif;
+}
