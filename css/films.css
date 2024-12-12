@@ -1,5 +1,6 @@
 /* Ensure header styles match */
 header nav a {
+font-family: 'Raleway', sans-serif;
     color: #FFFFFF;
     text-decoration: none;
     padding: 0.5rem 1rem;
@@ -8,13 +9,19 @@ header nav a {
     border-left-style: solid;
     border-width: 1px;
     border-color: #FFFFFF;
+    font-size: 18px;
 }
 
 header nav a:hover {
     background-color: rgba(255, 255, 255, 0.1);
     color: white;
 }
-
+header h2{
+    margin-top: 0px;
+}
+header{
+    padding: 1.4em;
+}
 /* Keep original font sizes */
 h1 { font-size: 3rem; }
 h2 { font-size: 2rem; }
@@ -68,6 +75,11 @@ p {
     border-radius: 45%;
     margin: 0;
     background-color: #2F2F2F;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0px;
+    transition: background-color 0.3s;
 }
 
 .ui.menu .item {
